@@ -1,0 +1,719 @@
+2020-06-03 16:36:48 DEBUG logging:28 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2020-06-03 16:36:49 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2020-06-03 16:36:49 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2020-06-03 16:36:49 DEBUG IntegratorServiceImpl:46 - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390V8] -> [org.hibernate.dialect.DB2390V8Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANAColumnStore] -> [org.hibernate.dialect.HANAColumnStoreDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANARowStore] -> [org.hibernate.dialect.HANARowStoreDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL8] -> [org.hibernate.dialect.MySQL8Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Atomikos] -> [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.AtomikosJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.AtomikosJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SapNetWeaver] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SapNetWeaverJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereLiberty] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereLibertyJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+2020-06-03 16:36:49 TRACE StrategySelectorImpl:70 - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+2020-06-03 16:36:49 INFO  Version:46 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-06-03 16:36:49 DEBUG Environment:199 - HHH000206: hibernate.properties not found
+2020-06-03 16:36:49 TRACE ClassLoaderServiceImpl:182 - trying via [new URL("hibernate.conf.xml")]
+2020-06-03 16:36:49 TRACE ClassLoaderServiceImpl:193 - trying via [ClassLoader.getResourceAsStream("hibernate.conf.xml")]
+2020-06-03 16:36:49 TRACE LocalXmlResourceResolver:35 - In resolveEntity(-//Hibernate/Hibernate Configuration DTD 3.0//EN, http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd, null, null)
+2020-06-03 16:36:49 DEBUG LocalXmlResourceResolver:57 - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD 3.0//EN] - [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+2020-06-03 16:36:49 WARN  deprecation:91 - HHH90000012: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/hibernate-configuration. Use namespace http://www.hibernate.org/dtd/hibernate-configuration instead.  Support for obsolete DTD/XSD namespaces may be removed at any time.
+2020-06-03 16:36:49 DEBUG LocalXmlResourceResolver:95 - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+2020-06-03 16:36:49 DEBUG JaxbCfgProcessor:116 - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+2020-06-03 16:36:50 DEBUG Configuration:722 - Building session factory using internal StandardServiceRegistryBuilder
+2020-06-03 16:36:50 DEBUG ServiceBinding:68 - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2020-06-03 16:36:50 DEBUG Configuration:652 - Building session factory using provided StandardServiceRegistry
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+2020-06-03 16:36:50 DEBUG RegionFactoryInitiator:118 - Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+2020-06-03 16:36:50 DEBUG RegionFactoryInitiator:49 - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2020-06-03 16:36:50 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration boolean -> org.hibernate.type.BooleanType@2578ee97
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration boolean -> org.hibernate.type.BooleanType@2578ee97
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@2578ee97
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@32f6b522
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration true_false -> org.hibernate.type.TrueFalseType@48644ba3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration yes_no -> org.hibernate.type.YesNoType@eba65c3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration byte -> org.hibernate.type.ByteType@10bfe43d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration byte -> org.hibernate.type.ByteType@10bfe43d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@10bfe43d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration character -> org.hibernate.type.CharacterType@68eb03d0
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration char -> org.hibernate.type.CharacterType@68eb03d0
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@68eb03d0
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration short -> org.hibernate.type.ShortType@1d047fbc
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration short -> org.hibernate.type.ShortType@1d047fbc
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1d047fbc
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration integer -> org.hibernate.type.IntegerType@43b8405f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration int -> org.hibernate.type.IntegerType@43b8405f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@43b8405f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration long -> org.hibernate.type.LongType@3adc1a90
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration long -> org.hibernate.type.LongType@3adc1a90
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3adc1a90
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration float -> org.hibernate.type.FloatType@6e2e3abf
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration float -> org.hibernate.type.FloatType@6e2e3abf
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6e2e3abf
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration double -> org.hibernate.type.DoubleType@65bada4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration double -> org.hibernate.type.DoubleType@65bada4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@65bada4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@13e3e04f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@13e3e04f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@1ebee356
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@1ebee356
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration string -> org.hibernate.type.StringType@64fab8a5
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.String -> org.hibernate.type.StringType@64fab8a5
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@722498b2
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@e400b01
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration url -> org.hibernate.type.UrlType@bfcfe4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.net.URL -> org.hibernate.type.UrlType@bfcfe4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration Duration -> org.hibernate.type.DurationType@6f72de1a
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@6f72de1a
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration Instant -> org.hibernate.type.InstantType@23518ab8
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@23518ab8
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@17a844e7
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@17a844e7
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@5d925e0b
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@5d925e0b
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@5e694443
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@5e694443
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@484ab553
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@484ab553
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@4927f8f9
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@4927f8f9
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6ee60444
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@6ee60444
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration date -> org.hibernate.type.DateType@1fb6eb2d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Date -> org.hibernate.type.DateType@1fb6eb2d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration time -> org.hibernate.type.TimeType@4f2ccc8c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@4f2ccc8c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration timestamp -> org.hibernate.type.TimestampType@5b2d21f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@5b2d21f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@5b2d21f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@26f0f28c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration calendar -> org.hibernate.type.CalendarType@11d53599
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@11d53599
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@11d53599
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@2e86cc81
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration locale -> org.hibernate.type.LocaleType@37df0a1b
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@37df0a1b
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration currency -> org.hibernate.type.CurrencyType@118399d4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@118399d4
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration timezone -> org.hibernate.type.TimeZoneType@3db8354
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@3db8354
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration class -> org.hibernate.type.ClassType@66699f2e
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@66699f2e
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@527a06e3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@527a06e3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@492aa2f1
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration binary -> org.hibernate.type.BinaryType@41330a95
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration byte[] -> org.hibernate.type.BinaryType@41330a95
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration [B -> org.hibernate.type.BinaryType@41330a95
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@41fbc9d3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@41fbc9d3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@41fbc9d3
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration row_version -> org.hibernate.type.RowVersionType@3c8ad57b
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration image -> org.hibernate.type.ImageType@21f5231f
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration characters -> org.hibernate.type.CharArrayType@106cb82c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration char[] -> org.hibernate.type.CharArrayType@106cb82c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration [C -> org.hibernate.type.CharArrayType@106cb82c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@3250045d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@3250045d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@3250045d
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration text -> org.hibernate.type.TextType@25abaff1
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration ntext -> org.hibernate.type.NTextType@41a53845
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration blob -> org.hibernate.type.BlobType@77601822
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@77601822
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@352ef184
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration clob -> org.hibernate.type.ClobType@1ec3a3da
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@1ec3a3da
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration nclob -> org.hibernate.type.NClobType@39775cd0
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@39775cd0
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@6996fac2
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@744ebb5a
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration serializable -> org.hibernate.type.SerializableType@3bccca24
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration object -> org.hibernate.type.ObjectType@63662699
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@63662699
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@275dba3e
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@755d02a2
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@72e16726
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6b669c94
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2120478c
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3cf51918
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@455481f7
+2020-06-03 16:36:50 DEBUG BasicTypeRegistry:156 - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@1a0927f5
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2020-06-03 16:36:50 DEBUG DefaultIdentifierGeneratorFactory:81 - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+2020-06-03 16:36:50 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+2020-06-03 16:36:50 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-06-03 16:36:50 INFO  pooling:115 - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/image]
+2020-06-03 16:36:50 INFO  pooling:121 - HHH10001001: Connection properties: {user=root, password=123456}
+2020-06-03 16:36:50 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-06-03 16:36:50 DEBUG DriverManagerConnectionProviderImpl:384 - Initializing Connection pool with 1 Connections
+2020-06-03 16:36:50 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-06-03 16:36:51 DEBUG JdbcEnvironmentInitiator:72 - Database ->
+       name : MySQL
+    version : 8.0.20
+      major : 8
+      minor : 0
+2020-06-03 16:36:51 DEBUG JdbcEnvironmentInitiator:83 - Driver ->
+       name : MySQL Connector/J
+    version : mysql-connector-java-8.0.11 (Revision: 6d4eaa273bc181b4cf1c8ad0821a2227f116fedf)
+      major : 8
+      minor : 0
+2020-06-03 16:36:51 DEBUG JdbcEnvironmentInitiator:389 - JDBC version : 4.2
+2020-06-03 16:36:51 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-06-03 16:36:51 DEBUG IdentifierHelperBuilder:113 - JDBC driver metadata reported database stores quoted identifiers in more than one case
+2020-06-03 16:36:51 DEBUG IdentifierHelperBuilder:187 - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [image]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [null]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+2020-06-03 16:36:52 DEBUG Namespace:51 - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2020-06-03 16:36:52 DEBUG TypeConfiguration$Scope:152 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3728a311] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@3e605ade]
+2020-06-03 16:36:52 DEBUG AnnotationBinder:557 - Binding entity from annotated class: model.Image
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [DTYPE]
+2020-06-03 16:36:52 DEBUG Ejb3Column:213 - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2020-06-03 16:36:52 DEBUG EntityBinder:430 - Import with entity name Image
+2020-06-03 16:36:52 TRACE InFlightMetadataCollectorImpl:716 - Import: Image -> model.Image
+2020-06-03 16:36:52 TRACE InFlightMetadataCollectorImpl:716 - Import: model.Image -> model.Image
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [Image]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [Image]
+2020-06-03 16:36:52 DEBUG EntityBinder:873 - Bind entity model.Image on table Image
+2020-06-03 16:36:52 TRACE AnnotationBinder:1644 - Processing annotations of model.Image.id
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-03 16:36:52 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Image), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2020-06-03 16:36:52 DEBUG PropertyBinder:175 - MetadataSourceProcessor property id with lazy=false
+2020-06-03 16:36:52 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Image:id]
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:411 - building SimpleValue for id
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [id]
+2020-06-03 16:36:52 DEBUG PropertyBinder:266 - Building property id
+2020-06-03 16:36:52 TRACE PropertyBinder:329 - Cascading id with null
+2020-06-03 16:36:52 DEBUG BinderHelper:644 - #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+2020-06-03 16:36:52 TRACE AnnotationBinder:2457 - Bind @Id on id
+2020-06-03 16:36:52 TRACE AnnotationBinder:1644 - Processing annotations of model.Image.author
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [author]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [author]
+2020-06-03 16:36:52 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Image), mappingColumn=author, insertable=true, updatable=true, unique=false}
+2020-06-03 16:36:52 DEBUG PropertyBinder:175 - MetadataSourceProcessor property author with lazy=false
+2020-06-03 16:36:52 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Image:author]
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:411 - building SimpleValue for author
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [author]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [author]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [author]
+2020-06-03 16:36:52 DEBUG PropertyBinder:266 - Building property author
+2020-06-03 16:36:52 TRACE PropertyBinder:329 - Cascading author with null
+2020-06-03 16:36:52 TRACE AnnotationBinder:1644 - Processing annotations of model.Image.feedback
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [feedback]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [feedback]
+2020-06-03 16:36:52 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Image), mappingColumn=feedback, insertable=true, updatable=true, unique=false}
+2020-06-03 16:36:52 DEBUG PropertyBinder:175 - MetadataSourceProcessor property feedback with lazy=false
+2020-06-03 16:36:52 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Image:feedback]
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:411 - building SimpleValue for feedback
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [feedback]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [feedback]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [feedback]
+2020-06-03 16:36:52 DEBUG PropertyBinder:266 - Building property feedback
+2020-06-03 16:36:52 TRACE PropertyBinder:329 - Cascading feedback with null
+2020-06-03 16:36:52 TRACE AnnotationBinder:1644 - Processing annotations of model.Image.mark
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [mark]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [mark]
+2020-06-03 16:36:52 DEBUG Ejb3Column:213 - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Image), mappingColumn=mark, insertable=true, updatable=true, unique=false}
+2020-06-03 16:36:52 DEBUG PropertyBinder:175 - MetadataSourceProcessor property mark with lazy=false
+2020-06-03 16:36:52 DEBUG AbstractPropertyHolder:94 - Attempting to locate auto-apply AttributeConverter for property [model.Image:mark]
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:411 - building SimpleValue for mark
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [mark]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [mark]
+2020-06-03 16:36:52 TRACE NormalizingIdentifierHelperImpl:61 - Normalizing identifier quoting [mark]
+2020-06-03 16:36:52 DEBUG PropertyBinder:266 - Building property mark
+2020-06-03 16:36:52 TRACE PropertyBinder:329 - Cascading mark with null
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for id
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for author
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for feedback
+2020-06-03 16:36:52 DEBUG SimpleValueBinder:456 - Starting fillSimpleValue for mark
+2020-06-03 16:36:52 DEBUG PrimaryKey:35 - Forcing column [id] to be non-null as it is part of the primary key for table [image]
+2020-06-03 16:36:52 TRACE BatchFetchStyle:51 - Interpreting BatchFetchStyle from setting : null
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
+2020-06-03 16:36:52 DEBUG SessionFactoryImpl:207 - Building session factory
+2020-06-03 16:36:52 DEBUG Settings:68 - SessionFactory name : null
+2020-06-03 16:36:52 DEBUG Settings:69 - Automatic flush during beforeCompletion(): enabled
+2020-06-03 16:36:52 DEBUG Settings:70 - Automatic session close at end of transaction: disabled
+2020-06-03 16:36:52 DEBUG Settings:72 - Statistics: disabled
+2020-06-03 16:36:52 DEBUG Settings:74 - Deleted entity synthetic identifier rollback: disabled
+2020-06-03 16:36:52 DEBUG Settings:75 - Default entity-mode: pojo
+2020-06-03 16:36:52 DEBUG Settings:76 - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2020-06-03 16:36:52 DEBUG Settings:77 - Allow initialization of lazy state outside session : disabled
+2020-06-03 16:36:52 DEBUG Settings:79 - Using BatchFetchStyle : LEGACY
+2020-06-03 16:36:52 DEBUG Settings:80 - Default batch fetch size: -1
+2020-06-03 16:36:52 DEBUG Settings:81 - Maximum outer join fetch depth: 2
+2020-06-03 16:36:52 DEBUG Settings:82 - Default null ordering: NONE
+2020-06-03 16:36:52 DEBUG Settings:83 - Order SQL updates by primary key: disabled
+2020-06-03 16:36:52 DEBUG Settings:84 - Order SQL inserts for batching: disabled
+2020-06-03 16:36:52 DEBUG Settings:86 - multi-tenancy strategy : NONE
+2020-06-03 16:36:52 DEBUG Settings:88 - JTA Track by Thread: enabled
+2020-06-03 16:36:52 DEBUG Settings:90 - Query language substitutions: {}
+2020-06-03 16:36:52 DEBUG Settings:91 - Named query checking : enabled
+2020-06-03 16:36:52 DEBUG Settings:93 - Second-level cache: disabled
+2020-06-03 16:36:52 DEBUG Settings:94 - Second-level query cache: disabled
+2020-06-03 16:36:52 DEBUG Settings:95 - Second-level query cache factory: null
+2020-06-03 16:36:52 DEBUG Settings:96 - Second-level cache region prefix: null
+2020-06-03 16:36:52 DEBUG Settings:97 - Optimize second-level cache for minimal puts: disabled
+2020-06-03 16:36:52 DEBUG Settings:98 - Structured second-level cache entries: disabled
+2020-06-03 16:36:52 DEBUG Settings:99 - Second-level cache direct-reference entries: disabled
+2020-06-03 16:36:52 DEBUG Settings:100 - Automatic eviction of collection cache: disabled
+2020-06-03 16:36:52 DEBUG Settings:102 - JDBC batch size: 15
+2020-06-03 16:36:52 DEBUG Settings:103 - JDBC batch updates for versioned data: enabled
+2020-06-03 16:36:52 DEBUG Settings:104 - Scrollable result sets: enabled
+2020-06-03 16:36:52 DEBUG Settings:105 - Wrap result sets: disabled
+2020-06-03 16:36:52 DEBUG Settings:106 - JDBC3 getGeneratedKeys(): enabled
+2020-06-03 16:36:52 DEBUG Settings:107 - JDBC result set fetch size: null
+2020-06-03 16:36:52 DEBUG Settings:108 - Connection release mode: AFTER_TRANSACTION
+2020-06-03 16:36:52 DEBUG Settings:109 - Generate SQL with comments: disabled
+2020-06-03 16:36:52 DEBUG Settings:111 - JPA compliance - query : disabled
+2020-06-03 16:36:52 DEBUG Settings:112 - JPA compliance - closed-handling : disabled
+2020-06-03 16:36:52 DEBUG Settings:113 - JPA compliance - lists : disabled
+2020-06-03 16:36:52 DEBUG Settings:114 - JPA compliance - transactions : disabled
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.service.spi.SessionFactoryServiceRegistryFactory]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.event.service.spi.EventListenerRegistry]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.resource.beans.spi.ManagedBeanRegistry]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.cache.spi.CacheImplementor]
+2020-06-03 16:36:52 DEBUG SessionFactoryImpl:262 - Session factory constructed with filter configurations : {}
+2020-06-03 16:36:52 DEBUG SessionFactoryImpl:263 - Instantiating session factory with properties: {sun.desktop=windows, awt.toolkit=sun.awt.windows.WToolkit, file.encoding.pkg=sun.io, java.specification.version=1.8, sun.cpu.isalist=amd64, sun.jnu.encoding=Cp1252, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, java.class.path=C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\bootstrap.jar;C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin\tomcat-juli.jar, java.vm.vendor=Oracle Corporation, sun.arch.data.model=64, user.variant=, catalina.useNaming=true, java.vendor.url=http://java.oracle.com/, user.timezone=Asia/Bangkok, os.name=Windows 7, java.vm.specification.version=1.8, sun.java.launcher=SUN_STANDARD, user.country=GB, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_221\jre\bin, com.sun.management.jmxremote.ssl=false, sun.java.command=org.apache.catalina.startup.Bootstrap start, com.sun.management.jmxremote=, sun.cpu.endian=little, user.home=C:\Users\Admin, user.language=en, java.specification.vendor=Oracle Corporation, java.naming.factory.url.pkgs=org.apache.naming, java.home=C:\Program Files\Java\jdk1.8.0_221\jre, ignore.endorsed.dirs=, file.separator=\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, java.specification.name=Java Platform API Specification, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, com.sun.management.jmxremote.password.file=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btBucAnhCuaNgay\jmxremote.password, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.tomcat., package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes, jdk.tls.ephemeralDHKeySize=2048, hibernate.hbm2ddl.auto=update, user.script=, server.loader=, java.util.logging.config.file=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btBucAnhCuaNgay\conf\logging.properties, java.protocol.handler.pkgs=org.apache.catalina.webresources, com.sun.management.jmxremote.access.file=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btBucAnhCuaNgay\jmxremote.access, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, java.runtime.version=1.8.0_221-b11, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, user.name=Admin, path.separator=;, hibernate.connection.username=****, common.loader="C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib","C:/Program Files/Apache Software Foundation/Tomcat 9.0/lib/*.jar","C:\Program Files\Apache Software Foundation\Tomcat 9.0/lib","C:\Program Files\Apache Software Foundation\Tomcat 9.0/lib/*.jar", os.version=6.1, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed, java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.url=jdbc:mysql://localhost:3306/image, file.encoding=Cp1252, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.show_sql=false, hibernate.connection.driver_class=com.mysql.jdbc.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, java.io.tmpdir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\temp, tomcat.util.scan.StandardJarScanFilter.jarsToScan=log4j-taglib*.jar,log4j-web*.jar,log4javascript*.jar,slf4j-taglib*.jar, catalina.home=C:\Program Files\Apache Software Foundation\Tomcat 9.0, com.sun.management.jmxremote.port=1099, java.version=1.8.0_221, java.util.concurrent.ForkJoinPool.common.threadFactory=org.apache.catalina.startup.SafeForkJoinWorkerThreadFactory, tomcat.util.scan.StandardJarScanFilter.jarsToSkip=annotations-api.jar,ant-junit*.jar,ant-launcher.jar,ant.jar,asm-*.jar,aspectj*.jar,bootstrap.jar,catalina-ant.jar,catalina-ha.jar,catalina-ssi.jar,catalina-storeconfig.jar,catalina-tribes.jar,catalina.jar,cglib-*.jar,cobertura-*.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-daemon.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,dom4j-*.jar,easymock-*.jar,ecj-*.jar,el-api.jar,geronimo-spec-jaxrpc*.jar,h2*.jar,hamcrest-*.jar,hibernate*.jar,httpclient*.jar,icu4j-*.jar,jasper-el.jar,jasper.jar,jaspic-api.jar,jaxb-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,jmx-tools.jar,jmx.jar,jsp-api.jar,jstl.jar,jta*.jar,junit-*.jar,junit.jar,log4j*.jar,mail*.jar,objenesis-*.jar,oraclepki.jar,oro-*.jar,servlet-api-*.jar,servlet-api.jar,slf4j*.jar,taglibs-standard-spec-*.jar,tagsoup-*.jar,tomcat-api.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-i18n-*.jar,tomcat-jdbc.jar,tomcat-jni.jar,tomcat-juli-adapters.jar,tomcat-juli.jar,tomcat-util-scan.jar,tomcat-util.jar,tomcat-websocket.jar,tools.jar,websocket-api.jar,wsdl4j*.jar,xercesImpl.jar,xml-apis.jar,xmlParserAPIs-*.jar,xmlParserAPIs.jar,xom-*.jar, user.dir=C:\Program Files\Apache Software Foundation\Tomcat 9.0\bin, os.arch=amd64, java.vm.specification.name=Java Virtual Machine Specification, hibernate.connection.password=****, java.awt.printerjob=sun.awt.windows.WPrinterJob, sun.os.patch.level=Service Pack 1, catalina.base=C:\Users\Admin\.IntelliJIdea2019.3\system\tomcat\Unnamed_btBucAnhCuaNgay, shared.loader=, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@65c04c3f, java.util.logging.manager=org.apache.juli.ClassLoaderLogManager, java.library.path=C:\Program Files\Java\jdk1.8.0_221\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;F:\MinGW\bin;F:\Git\cmd;C:\Program Files\Java\jdk1.8.0_221\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Admin\AppData\Local\GitHubDesktop\bin;., java.vendor=Oracle Corporation, java.vm.info=mixed mode, java.vm.version=25.221-b11, hibernate.bytecode.use_reflection_optimizer=false, java.rmi.server.randomIDs=true, java.rmi.server.hostname=127.0.0.1, sun.io.unicode.encoding=UnicodeLittle, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, tomcat.util.buf.StringCache.byte.enabled=true, java.class.version=52.0}
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.query.spi.NativeQueryInterpreter]
+2020-06-03 16:36:52 DEBUG JaccIntegrator:80 - Skipping JACC integration as it was not enabled
+2020-06-03 16:36:52 DEBUG SessionFactoryImpl:302 - Instantiated session factory
+2020-06-03 16:36:52 DEBUG TypeConfiguration$Scope:157 - Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@3728a311] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@6a5d6649]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.persister.spi.PersisterFactory]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.persister.spi.PersisterClassResolver]
+2020-06-03 16:36:52 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.property.access.spi.PropertyAccessStrategyResolver]
+2020-06-03 16:36:52 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [model.Image] is safe
+2020-06-03 16:36:52 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Image
+2020-06-03 16:36:53 DEBUG ClassLoaderAccessImpl:60 - Not known whether passed class name [model.Image] is safe
+2020-06-03 16:36:53 DEBUG ClassLoaderAccessImpl:62 - No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : model.Image
+2020-06-03 16:36:53 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [author], existing type = [org.hibernate.type.StringType@64fab8a5], incoming type = [org.hibernate.type.StringType@64fab8a5]
+2020-06-03 16:36:53 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [feedback], existing type = [org.hibernate.type.StringType@64fab8a5], incoming type = [org.hibernate.type.StringType@64fab8a5]
+2020-06-03 16:36:53 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [mark], existing type = [org.hibernate.type.IntegerType@43b8405f], incoming type = [org.hibernate.type.IntegerType@43b8405f]
+2020-06-03 16:36:53 TRACE AbstractPropertyMapping:125 - Skipping duplicate registration of path [id], existing type = [org.hibernate.type.IntegerType@43b8405f], incoming type = [org.hibernate.type.IntegerType@43b8405f]
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:3847 - Static SQL for entity: model.Image
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:3852 -  Version select: select id from Image where id =?
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:3855 -  Snapshot select: select image_.id, image_.author as author2_0_, image_.feedback as feedback3_0_, image_.mark as mark4_0_ from Image image_ where image_.id=?
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:394 -  Insert 0: insert into Image (author, feedback, mark, id) values (?, ?, ?, ?)
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:394 -  Update 0: update Image set author=?, feedback=?, mark=? where id=?
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:394 -  Delete 0: delete from Image where id=?
+2020-06-03 16:36:53 DEBUG AbstractEntityPersister:3863 -  Identity insert: insert into Image (author, feedback, mark) values (?, ?, ?)
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:172 -  Starting root entity : model.Image
+2020-06-03 16:36:53 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2da125e0]
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6dcb7fcd
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .. Registering AssociationKey : AssociationKey(table=Image, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6dcb7fcd
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Image
+2020-06-03 16:36:53 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : author
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=author, type=string [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=author, type=string [non-identifier])
+2020-06-03 16:36:53 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : feedback
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=feedback, type=string [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=feedback, type=string [non-identifier])
+2020-06-03 16:36:53 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : mark
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=mark, type=integer [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=mark, type=integer [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6dcb7fcd
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:208 -  Finished root entity : model.Image
+2020-06-03 16:36:53 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-03 16:36:53 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-03 16:36:53 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Image)
+    - Returns
+       - EntityReturnImpl(entity=model.Image, querySpaceUid=<gen:0>, path=model.Image)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Image)
+          - SQL table alias mapping - image0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-06-03 16:36:53 DEBUG EntityLoader:137 - Static select for entity model.Image [NONE]: select image0_.id as id1_0_0_, image0_.author as author2_0_0_, image0_.feedback as feedback3_0_0_, image0_.mark as mark4_0_0_ from Image image0_ where image0_.id=?
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:172 -  Starting root entity : model.Image
+2020-06-03 16:36:53 DEBUG QuerySpacesImpl:174 - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@529169a8]
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:113 - Pushing fetch source to stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6151c23a
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:648 - .. Registering AssociationKey : AssociationKey(table=Image, columns={id}) -> org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6151c23a
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:239 - >> Starting entity identifier : model.Image
+2020-06-03 16:36:53 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : author
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=author, type=string [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=author, type=string [non-identifier])
+2020-06-03 16:36:53 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : feedback
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=feedback, type=string [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=feedback, type=string [non-identifier])
+2020-06-03 16:36:53 DEBUG MetamodelGraphWalker:146 - Visiting attribute path : mark
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:547 - >> Starting attribute Attribute(name=mark, type=integer [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:628 - << Finishing up attribute : Attribute(name=mark, type=integer [non-identifier])
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:120 - Popped fetch owner from stack : org.hibernate.loader.plan.build.internal.returns.EntityReturnImpl@6151c23a
+2020-06-03 16:36:53 TRACE AbstractLoadPlanBuildingAssociationVisitationStrategy:208 -  Finished root entity : model.Image
+2020-06-03 16:36:53 DEBUG FetchStyleLoadPlanBuildingAssociationVisitationStrategy:150 - Building LoadPlan...
+2020-06-03 16:36:53 DEBUG LoadQueryJoinAndFetchProcessor:102 - processing queryspace <gen:0>
+2020-06-03 16:36:53 DEBUG LoadPlanTreePrinter:55 - LoadPlan(entity=model.Image)
+    - Returns
+       - EntityReturnImpl(entity=model.Image, querySpaceUid=<gen:0>, path=model.Image)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=model.Image)
+          - SQL table alias mapping - image0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2020-06-03 16:36:53 DEBUG EntityLoader:137 - Static select for entity model.Image [READ]: select image0_.id as id1_0_0_, image0_.author as author2_0_0_, image0_.feedback as feedback3_0_0_, image0_.mark as mark4_0_0_ from Image image0_ where image0_.id=?
+2020-06-03 16:36:53 DEBUG Loader:38 - Static select for action ACTION_MERGE on entity model.Image: select image0_.id as id1_0_0_, image0_.author as author2_0_0_, image0_.feedback as feedback3_0_0_, image0_.mark as mark4_0_0_ from Image image0_ where image0_.id=?
+2020-06-03 16:36:53 DEBUG Loader:38 - Static select for action ACTION_REFRESH on entity model.Image: select image0_.id as id1_0_0_, image0_.author as author2_0_0_, image0_.feedback as feedback3_0_0_, image0_.mark as mark4_0_0_ from Image image0_ where image0_.id=?
+2020-06-03 16:36:53 TRACE MetadataContext:204 - Wrapping up metadata context...
+2020-06-03 16:36:53 TRACE MetadataContext:216 - Starting entity [model.Image]
+2020-06-03 16:36:53 TRACE AttributeFactory:137 - Building identifier attribute [Image.id]
+2020-06-03 16:36:53 TRACE AttributeFactory:446 - Starting attribute metadata determination [id]
+2020-06-03 16:36:53 TRACE AttributeFactory:451 -     Determined member [private int model.Image.id]
+2020-06-03 16:36:53 TRACE AttributeFactory:455 -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+2020-06-03 16:36:53 TRACE AttributeFactory:88 - Building attribute [Image.author]
+2020-06-03 16:36:53 TRACE AttributeFactory:446 - Starting attribute metadata determination [author]
+2020-06-03 16:36:53 TRACE AttributeFactory:451 -     Determined member [private java.lang.String model.Image.author]
+2020-06-03 16:36:53 TRACE AttributeFactory:455 -     Determined type [name=string, class=org.hibernate.type.StringType]
+2020-06-03 16:36:53 TRACE AttributeFactory:88 - Building attribute [Image.feedback]
+2020-06-03 16:36:53 TRACE AttributeFactory:446 - Starting attribute metadata determination [feedback]
+2020-06-03 16:36:53 TRACE AttributeFactory:451 -     Determined member [private java.lang.String model.Image.feedback]
+2020-06-03 16:36:53 TRACE AttributeFactory:455 -     Determined type [name=string, class=org.hibernate.type.StringType]
+2020-06-03 16:36:53 TRACE AttributeFactory:88 - Building attribute [Image.mark]
+2020-06-03 16:36:53 TRACE AttributeFactory:446 - Starting attribute metadata determination [mark]
+2020-06-03 16:36:53 TRACE AttributeFactory:451 -     Determined member [private int model.Image.mark]
+2020-06-03 16:36:53 TRACE AttributeFactory:455 -     Determined type [name=integer, class=org.hibernate.type.IntegerType]
+2020-06-03 16:36:53 TRACE MetadataContext:251 - Completed entity [model.Image]
+2020-06-03 16:36:53 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.tool.schema.spi.SchemaManagementTool]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [image]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [image] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6e54231e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [Image]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [Image] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [id]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [id] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [author]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [author] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [feedback]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [feedback] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [mark]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [mark] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 DEBUG Table:516 - No alter strings for table : Image
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [Image]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [Image] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 TRACE UniqueConstraintSchemaUpdateStrategy:50 - Interpreting UniqueConstraintSchemaUpdateStrategy from setting : null
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:191 - Normalizing identifier quoting for object name [Image]
+2020-06-03 16:36:53 TRACE NormalizingIdentifierHelperImpl:157 - Rendering unquoted identifier [Image] in lower case for use in DatabaseMetaData
+2020-06-03 16:36:53 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform]
+2020-06-03 16:36:53 DEBUG JtaPlatformInitiator:43 - No JtaPlatform was specified, checking resolver
+2020-06-03 16:36:53 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.transaction.jta.platform.spi.JtaPlatformResolver]
+2020-06-03 16:36:53 DEBUG JtaPlatformResolverInitiator:33 - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+2020-06-03 16:36:53 DEBUG StandardJtaPlatformResolver:137 - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 16:36:53 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-06-03 16:36:53 DEBUG NamedQueryRepository:151 - Checking 0 named HQL queries
+2020-06-03 16:36:53 DEBUG NamedQueryRepository:167 - Checking 0 named SQL queries
+2020-06-03 16:36:53 TRACE TypeConfiguration$Scope:205 - Handling #sessionFactoryCreated from [org.hibernate.internal.SessionFactoryImpl@6a5d6649] for TypeConfiguration
+2020-06-03 16:36:53 DEBUG SessionFactoryRegistry:52 - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@7d45a5e6
+2020-06-03 16:36:53 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.engine.jndi.spi.JndiService]
+2020-06-03 16:36:54 DEBUG SessionFactoryRegistry:74 - Registering SessionFactory: b1a6f8ad-bee6-483b-b2a8-120513298c75 (<unnamed>)
+2020-06-03 16:36:54 DEBUG SessionFactoryRegistry:81 - Not binding SessionFactory to JNDI, no JNDI name configured
+2020-06-03 16:36:54 TRACE SessionFactoryImpl$SessionBuilderImpl:1304 - Opening Hibernate Session.  tenant=null
+2020-06-03 16:36:54 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.stat.spi.StatisticsImplementor]
+2020-06-03 16:36:54 DEBUG StatisticsInitiator:101 - Statistics initialized [enabled=false]
+2020-06-03 16:36:54 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.jmx.spi.JmxService]
+2020-06-03 16:36:54 TRACE SessionImpl:260 - Opened Session [f7cfe0a3-5ff1-4a99-83eb-cd37927e4ed6] at timestamp: 1591177014084
+2020-06-03 16:36:55 TRACE ImageController:28 - Vao loadIndex
+2020-06-03 16:36:55 INFO  ImageController:35 - model.Image@16986239
+2020-06-03 16:36:55 TRACE ImageController:39 - Thoat loadIndex
+2020-06-03 16:36:57 TRACE ImageController:28 - Vao loadIndex
+2020-06-03 16:36:57 INFO  ImageController:35 - model.Image@4c420d7e
+2020-06-03 16:36:57 TRACE ImageController:39 - Thoat loadIndex
+2020-06-03 16:36:57 TRACE ImageController:28 - Vao loadIndex
+2020-06-03 16:36:57 INFO  ImageController:35 - model.Image@7091aa58
+2020-06-03 16:36:57 TRACE ImageController:39 - Thoat loadIndex
+2020-06-03 16:37:06 TRACE ImageController:45 - Vao loadResult
+2020-06-03 16:37:06 TRACE ImageService:36 - Vao saveComment
+2020-06-03 16:37:06 TRACE SessionFactoryImpl$SessionBuilderImpl:1304 - Opening Hibernate Session.  tenant=null
+2020-06-03 16:37:06 TRACE SessionImpl:260 - Opened Session [8f590797-f339-4787-bb52-bea775f85cea] at timestamp: 1591177026370
+2020-06-03 16:37:06 DEBUG TransactionImpl:53 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2020-06-03 16:37:06 DEBUG TransactionImpl:81 - begin
+2020-06-03 16:37:06 TRACE AbstractLogicalConnectionImplementor:66 - Preparing to begin transaction via JDBC Connection.setAutoCommit(false)
+2020-06-03 16:37:06 TRACE AbstractLogicalConnectionImplementor:68 - Transaction begun via JDBC Connection.setAutoCommit(false)
+2020-06-03 16:37:06 TRACE JdbcResourceLocalTransactionCoordinatorImpl:177 - ResourceLocalTransactionCoordinatorImpl#afterBeginCallback
+2020-06-03 16:37:06 INFO  ImageService:46 - model.Image@7f607be0
+2020-06-03 16:37:06 TRACE DefaultSaveOrUpdateEventListener:164 - Saving transient instance
+2020-06-03 16:37:06 TRACE AbstractSaveEventListener:172 - Saving [model.Image#<null>]
+2020-06-03 16:37:06 TRACE ActionQueue:316 - Adding an EntityIdentityInsertAction for [model.Image] object
+2020-06-03 16:37:06 TRACE ActionQueue:257 - Executing inserts before finding non-nullable transient entities for early insert: [EntityIdentityInsertAction[model.Image#<null>]]
+2020-06-03 16:37:06 TRACE ActionQueue:262 - Adding insert with no non-nullable, transient entities: [EntityIdentityInsertAction[model.Image#<null>]]
+2020-06-03 16:37:06 TRACE ActionQueue:279 - Executing insertions before resolved early-insert
+2020-06-03 16:37:06 DEBUG ActionQueue:281 - Executing identity-insert immediately
+2020-06-03 16:37:06 TRACE AbstractEntityPersister:3108 - Inserting entity: model.Image (native id)
+2020-06-03 16:37:06 DEBUG SQL:127 - insert into Image (author, feedback, mark) values (?, ?, ?)
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:83 - Registering statement [com.mysql.cj.jdbc.ClientPreparedStatement: insert into Image (author, feedback, mark) values (** NOT SPECIFIED **, ** NOT SPECIFIED **, ** NOT SPECIFIED **)]
+2020-06-03 16:37:06 TRACE AbstractEntityPersister:2914 - Dehydrating entity: [model.Image#<null>]
+2020-06-03 16:37:06 TRACE BasicBinder:64 - binding parameter [1] as [VARCHAR] - [Duc1]
+2020-06-03 16:37:06 TRACE BasicBinder:64 - binding parameter [2] as [VARCHAR] - [123]
+2020-06-03 16:37:06 TRACE BasicBinder:64 - binding parameter [3] as [INTEGER] - [3]
+2020-06-03 16:37:06 DEBUG IdentifierGeneratorHelper:78 - Natively generated identity: 3
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:118 - Releasing result set [com.mysql.cj.jdbc.result.ResultSetImpl@7090bee6]
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:161 - Closing result set [com.mysql.cj.jdbc.result.ResultSetImpl@7090bee6]
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:97 - Releasing statement [com.mysql.cj.jdbc.ClientPreparedStatement: insert into Image (author, feedback, mark) values ('Duc1', '123', 3)]
+2020-06-03 16:37:06 DEBUG ResourceRegistryStandardImpl:106 - HHH000387: ResultSet's statement was not registered
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:177 - Closing prepared statement [com.mysql.cj.jdbc.ClientPreparedStatement: insert into Image (author, feedback, mark) values ('Duc1', '123', 3)]
+2020-06-03 16:37:06 TRACE JdbcCoordinatorImpl:255 - Starting after statement execution processing [AFTER_TRANSACTION]
+2020-06-03 16:37:06 DEBUG TransactionImpl:98 - committing
+2020-06-03 16:37:06 TRACE JdbcResourceLocalTransactionCoordinatorImpl:181 - ResourceLocalTransactionCoordinatorImpl#beforeCompletionCallback
+2020-06-03 16:37:06 TRACE SessionImpl:2388 - SessionImpl#beforeTransactionCompletion()
+2020-06-03 16:37:06 TRACE SessionImpl:434 - Automatically flushing session
+2020-06-03 16:37:06 TRACE AbstractFlushingEventListener:74 - Flushing session
+2020-06-03 16:37:06 DEBUG AbstractFlushingEventListener:139 - Processing flush-time cascades
+2020-06-03 16:37:06 DEBUG AbstractFlushingEventListener:192 - Dirty checking collections
+2020-06-03 16:37:06 TRACE AbstractFlushingEventListener:205 - Flushing entities and processing referenced collections
+2020-06-03 16:37:06 TRACE AbstractFlushingEventListener:248 - Processing unreferenced collections
+2020-06-03 16:37:06 TRACE AbstractFlushingEventListener:261 - Scheduling collection removes/(re)creates/updates
+2020-06-03 16:37:06 DEBUG AbstractFlushingEventListener:113 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+2020-06-03 16:37:06 DEBUG AbstractFlushingEventListener:120 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2020-06-03 16:37:06 DEBUG EntityPrinter:110 - Listing entities:
+2020-06-03 16:37:06 DEBUG EntityPrinter:117 - model.Image{feedback=123, author=Duc1, id=3, mark=3}
+2020-06-03 16:37:06 TRACE AbstractFlushingEventListener:333 - Executing flush
+2020-06-03 16:37:06 TRACE JdbcCoordinatorImpl:255 - Starting after statement execution processing [AFTER_TRANSACTION]
+2020-06-03 16:37:06 TRACE AbstractFlushingEventListener:368 - Post flush
+2020-06-03 16:37:06 TRACE SynchronizationRegistryStandardImpl:55 - SynchronizationRegistryStandardImpl.notifySynchronizationsBeforeTransactionCompletion
+2020-06-03 16:37:06 TRACE AbstractLogicalConnectionImplementor:80 - Preparing to commit transaction via JDBC Connection.commit()
+2020-06-03 16:37:06 TRACE AbstractLogicalConnectionImplementor:83 - Transaction committed via JDBC Connection.commit()
+2020-06-03 16:37:06 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-06-03 16:37:06 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-06-03 16:37:06 TRACE JdbcResourceLocalTransactionCoordinatorImpl:199 - ResourceLocalTransactionCoordinatorImpl#afterCompletionCallback(true)
+2020-06-03 16:37:06 TRACE SynchronizationRegistryStandardImpl:159 - SynchronizationRegistryStandardImpl.notifySynchronizationsAfterTransactionCompletion(3)
+2020-06-03 16:37:06 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-06-03 16:37:06 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
+2020-06-03 16:37:06 TRACE SessionImpl:2403 - SessionImpl#afterTransactionCompletion(successful=true, delayed=false)
+2020-06-03 16:37:06 TRACE ImageService:49 - Thoat saveComment
+2020-06-03 16:37:06 TRACE SessionImpl:348 - Closing session [8f590797-f339-4787-bb52-bea775f85cea]
+2020-06-03 16:37:06 TRACE JdbcCoordinatorImpl:166 - Closing JDBC container [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl@7856e795]
+2020-06-03 16:37:06 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-06-03 16:37:06 TRACE LogicalConnectionManagedImpl:233 - Closing logical connection
+2020-06-03 16:37:06 TRACE LogicalConnectionManagedImpl:240 - Logical connection closed
+2020-06-03 16:37:06 INFO  ImageController:51 - model.Image@2a6783f5
+2020-06-03 16:37:06 TRACE QueryPlanCache:154 - Unable to locate HQL query plan in cache; generating (select i from Image as i)
+2020-06-03 16:37:06 TRACE AbstractServiceRegistryImpl:233 - Initializing service [role=org.hibernate.hql.spi.QueryTranslatorFactory]
+2020-06-03 16:37:06 DEBUG QueryTranslatorFactoryInitiator:45 - QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@15c84fcd
+2020-06-03 16:37:07 DEBUG QueryTranslatorImpl:288 - parse() - HQL: select i from model.Image as i
+2020-06-03 16:37:07 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-03 16:37:07 DEBUG QueryTranslatorImpl:309 - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[IDENT] Node: 'model'
+       |     |  \-[IDENT] Node: 'Image'
+       |     \-[ALIAS] Node: 'i'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'i'
+
+2020-06-03 16:37:07 DEBUG HqlSqlBaseWalker:124 - select << begin [level=1, statement=select]
+2020-06-03 16:37:07 DEBUG FromElement:149 - FromClause{level=1} : model.Image (i) -> image0_
+2020-06-03 16:37:07 DEBUG FromReferenceNode:60 - Resolved : i -> image0_.id
+2020-06-03 16:37:07 DEBUG HqlSqlBaseWalker:128 - select : finishing up [level=1, statement=select]
+2020-06-03 16:37:07 DEBUG HqlSqlWalker:752 - processQuery() :  ( SELECT ( {select clause} image0_.id ) ( FromClause{level=1} Image image0_ ) )
+2020-06-03 16:37:07 DEBUG JoinProcessor:128 - Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity Image): [Image]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(model.Image)
+    |  | referencedTables: null
+    |  | originalText: i
+    |  \-SqlFragment
+    \-FromClause
+       \-FromElement
+
+2020-06-03 16:37:07 DEBUG JoinProcessor:295 - Using FROM fragment [Image image0_]
+2020-06-03 16:37:07 DEBUG HqlSqlBaseWalker:132 - select >> end [level=1, statement=select]
+2020-06-03 16:37:07 DEBUG QueryTranslatorImpl:275 - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Image)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'image0_.id as id1_0_' {alias=i, className=model.Image, tableAlias=image0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[i], fromElementByTableAlias=[image0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Image image0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=i,role=null,tableName=Image,tableAlias=image0_,origin=null,columns={,className=model.Image}}
+
+2020-06-03 16:37:07 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-03 16:37:07 DEBUG QueryTranslatorImpl:254 - HQL: select i from model.Image as i
+2020-06-03 16:37:07 DEBUG QueryTranslatorImpl:255 - SQL: select image0_.id as id1_0_, image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_ from Image image0_
+2020-06-03 16:37:07 DEBUG ErrorTracker:97 - throwQueryException() : no errors
+2020-06-03 16:37:07 TRACE QueryPlanCache:166 - Located HQL query plan in cache (select i from Image as i)
+2020-06-03 16:37:07 TRACE QueryPlanCache:166 - Located HQL query plan in cache (select i from Image as i)
+2020-06-03 16:37:07 TRACE HQLQueryPlan:196 - Find: select i from Image as i
+2020-06-03 16:37:07 TRACE QueryParameters:325 - Named parameters: {}
+2020-06-03 16:37:07 DEBUG SQL:127 - select image0_.id as id1_0_, image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_ from Image image0_
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:83 - Registering statement [com.mysql.cj.jdbc.ClientPreparedStatement: select image0_.id as id1_0_, image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_ from Image image0_]
+2020-06-03 16:37:07 TRACE JdbcCoordinatorImpl:325 - Registering last query statement [com.mysql.cj.jdbc.ClientPreparedStatement: select image0_.id as id1_0_, image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_ from Image image0_]
+2020-06-03 16:37:07 TRACE Loader:2154 - Bound [1] parameters total
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:211 - Registering result set [com.mysql.cj.jdbc.result.ResultSetImpl@70320d1]
+2020-06-03 16:37:07 TRACE Loader:1000 - Processing result set
+2020-06-03 16:37:07 DEBUG Loader:384 - Result set row: 0
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [1]
+2020-06-03 16:37:07 DEBUG Loader:1586 - Result row: EntityKey[model.Image#1]
+2020-06-03 16:37:07 TRACE Loader:1838 - Initializing object from ResultSet: [model.Image#1]
+2020-06-03 16:37:07 TRACE AbstractEntityPersister:2989 - Hydrating entity: [model.Image#1]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([author2_0_] : [VARCHAR]) - [huy]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([feedback3_0_] : [VARCHAR]) - [nice]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([mark4_0_] : [INTEGER]) - [1]
+2020-06-03 16:37:07 DEBUG Loader:384 - Result set row: 1
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [2]
+2020-06-03 16:37:07 DEBUG Loader:1586 - Result row: EntityKey[model.Image#2]
+2020-06-03 16:37:07 TRACE Loader:1838 - Initializing object from ResultSet: [model.Image#2]
+2020-06-03 16:37:07 TRACE AbstractEntityPersister:2989 - Hydrating entity: [model.Image#2]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([author2_0_] : [VARCHAR]) - [Duc]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([feedback3_0_] : [VARCHAR]) - [Bad]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([mark4_0_] : [INTEGER]) - [3]
+2020-06-03 16:37:07 DEBUG Loader:384 - Result set row: 2
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([id1_0_] : [INTEGER]) - [3]
+2020-06-03 16:37:07 DEBUG Loader:1586 - Result row: EntityKey[model.Image#3]
+2020-06-03 16:37:07 TRACE Loader:1838 - Initializing object from ResultSet: [model.Image#3]
+2020-06-03 16:37:07 TRACE AbstractEntityPersister:2989 - Hydrating entity: [model.Image#3]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([author2_0_] : [VARCHAR]) - [Duc1]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([feedback3_0_] : [VARCHAR]) - [123]
+2020-06-03 16:37:07 TRACE BasicExtractor:60 - extracted value ([mark4_0_] : [INTEGER]) - [3]
+2020-06-03 16:37:07 TRACE Loader:1026 - Done processing result set (3 rows)
+2020-06-03 16:37:07 TRACE Loader:1168 - Total objects hydrated: 3
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:178 - Resolving attributes for [model.Image#1]
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `author` : value = huy
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`author`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `feedback` : value = nice
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`feedback`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `mark` : value = 1
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`mark`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:342 - Done materializing entity [model.Image#1]
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:178 - Resolving attributes for [model.Image#2]
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `author` : value = Duc
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`author`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `feedback` : value = Bad
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`feedback`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `mark` : value = 3
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`mark`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:342 - Done materializing entity [model.Image#2]
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:178 - Resolving attributes for [model.Image#3]
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `author` : value = Duc1
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`author`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `feedback` : value = 123
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`feedback`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:190 - Processing attribute `mark` : value = 3
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:221 - Attribute (`mark`)  - enhanced for lazy-loading? - false
+2020-06-03 16:37:07 DEBUG TwoPhaseLoad:342 - Done materializing entity [model.Image#3]
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:97 - Releasing statement [com.mysql.cj.jdbc.ClientPreparedStatement: select image0_.id as id1_0_, image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_ from Image image0_]
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:161 - Closing result set [com.mysql.cj.jdbc.result.ResultSetImpl@70320d1]
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:177 - Closing prepared statement [com.mysql.cj.jdbc.ClientPreparedStatement: select image0_.id as id1_0_, image0_.author as author2_0_, image0_.feedback as feedback3_0_, image0_.mark as mark4_0_ from Image image0_]
+2020-06-03 16:37:07 TRACE JdbcCoordinatorImpl:255 - Starting after statement execution processing [AFTER_TRANSACTION]
+2020-06-03 16:37:07 TRACE StatefulPersistenceContext:988 - Initializing non-lazy collections
+2020-06-03 16:37:07 TRACE AbstractLogicalConnectionImplementor:53 - LogicalConnection#afterTransaction
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-06-03 16:37:07 DEBUG LogicalConnectionManagedImpl:159 - Initiating JDBC connection release from afterTransaction
+2020-06-03 16:37:07 TRACE ResourceRegistryStandardImpl:317 - Releasing JDBC resources
+2020-06-03 16:37:07 TRACE ImageController:57 - Thoat loadResult
+2020-06-03 16:37:21 DEBUG DriverManagerConnectionProviderImpl:259 - Connection pool now considered primed; min-size will be maintained
